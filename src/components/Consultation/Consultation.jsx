@@ -11,7 +11,7 @@ const Consultation = () => {
         </div>
 
         <div className="app_development_content">
-          <h5>Web & Mobile App Development</h5>
+          <h3>Web & Mobile App Development</h3>
           <p>
             Your web and mobile Apps are pieces of the puzzle to grow your
             business. We use frameworks which tailor content and engagement
@@ -25,7 +25,7 @@ const Consultation = () => {
       {/* Digital Strategy Consulting */}
       <div className="digital">
         <div className="digital_content">
-          <h5>Digital Strategy Consulting</h5>
+          <h3>Digital Strategy Consulting</h3>
           <p>
             Your digital strategy should complement the overall marketing
             strategy of the company. In online marketing, each component will
