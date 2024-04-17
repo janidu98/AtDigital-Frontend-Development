@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin: 80px 0;
+}
+
+.app_development, .digital {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 108px;
+    max-width: 1064px;
+    margin: 0 auto;
+    /* border: 1px solid #000; */
+}
+
+.app_development_content, .digital_content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    /* width: 542px; */
+}
+
+.container h5{
+    font-family: 'Poppins',serif;
+    color: #6B3CC9;
+    font-weight: 600;
+    font-size: 27px;
+}
+
+.container p{
+    font-family: 'Inter',serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+
+.app_img {
+    width: 414px;
+    height: 414px;
+}
+
+.digital_img {
+    width: 414px;
+    height: 416px;
+}
