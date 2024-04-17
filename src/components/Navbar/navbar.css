@@ -7,7 +7,7 @@ nav {
 .nav-container{
     display: flex;
     justify-content: space-between;
-    padding: 0 80px;
+    /* padding: 0 80px; */
     align-items: center;
 }
 
@@ -26,4 +26,7 @@ nav {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Inter',serif;
+    font-weight: 500;
 }
