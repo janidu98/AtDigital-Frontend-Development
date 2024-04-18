@@ -26,3 +26,27 @@ button {
   font-weight: 700;
   font-size: 14px;
 }
+
+/* screen size - 1200px */
+@media (max-width: 1200px) {
+  .wrapper{
+      padding: 0 60px;
+  }
+}
+
+
+/* screen size - 768px */
+@media (max-width: 768px) {
+  .wrapper{
+      padding: 0 40px;
+      max-width: 768px;
+  }
+}
+
+
+/* screen size - 375px */
+@media (max-width: 376px) {
+  .wrapper{
+      padding: 0 20px;
+  }
+}  

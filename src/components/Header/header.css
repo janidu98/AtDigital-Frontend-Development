@@ -1,32 +1,72 @@
-header{
-    background: url('../../src/assets/heroImg.png');
-    background-size: cover;
-    background-position: center;
-    height: 700px;
+header {
+  background: url("../../src/assets/heroImg.png");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  /* width: 100%; */
 }
 
-header .wrapper{
-    position: relative;
+header .wrapper {
+  position: relative;
 }
 
-.header-container{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-    width: 630px;
-    height: 306px;
-    padding: 24px 34px 32px 40px;
-    top: 354px;
-    background: linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%), #FFFFFF;
+.header-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  width: 630px;
+  height: 306px;
+  padding: 24px 34px 32px 40px;
+  top: 354px;
+  background: linear-gradient(256.73deg, #1cbddd 27.86%, #4dca79 100%), #ffffff;
 }
 
-.header-container p{
-    font-family: 'Inter',serif;
-    font-weight: 700;
-    font-size: 48px;
-    color: #fff;
-    height: 192px;
-    line-height: 100%;
+.header-container p {
+  font-family: "Inter", serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #fff;
+  height: 192px;
+  line-height: 100%;
 }
+
+/* screen size - 768px */
+@media (max-width: 768px) {
+  header {
+    height: 448px;
+    margin-bottom: 318px;
+  }
+
+  .header-container {
+    left: 0;
+    top: 448px;
+    width: 100%;
+    height: 258px;
+    padding: 24px 40px 32px 40px;
+    margin-bottom: 60px;
+  }
+}
+
+
+/* screen size - 375px */
+@media (max-width: 376px) {
+  header {
+    height: 218px;
+  }
+
+  .header-container {
+    left: 0;
+    top: 218px;
+    width: 100%;
+    height: 294px;
+    padding: 24px 20px 32px 20px;
+    margin-bottom: 60px;
+  }
+
+  .header-container p {
+    font-size: 36px;
+  }
+}
+
