@@ -1,5 +1,5 @@
 header {
-  background: url("../../src/assets/heroImg.png");
+  background: url("/assets/heroImg.png");
   background-size: cover;
   background-position: center;
   height: 700px;

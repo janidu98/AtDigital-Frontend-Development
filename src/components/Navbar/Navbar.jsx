@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="wrapper">
           <div className="nav-container">
               <div className="logo">
-                  <img src="../../src/assets/logo.svg" alt="logo" />
+                  <img src="/assets/logo.svg" alt="logo" />
               </div>
 
               <ul>
@@ -22,7 +22,7 @@ const Navbar = () => {
               </ul>
 
               <div className="menu-icon">
-                <img src="../../src/assets/menuIcon.svg" alt="menu-icon" onClick={() => setIsActive(true)}/>
+                <img src="/assets/menuIcon.svg" alt="menu-icon" onClick={() => setIsActive(true)}/>
               </div>
           </div>
         </div>
@@ -32,7 +32,7 @@ const Navbar = () => {
       {/* Hamburger menu */}
       <div className={`mobile-menu-container ${isActive ? 'active' : ''}`}>
         <div className="closeIcon">
-          <img src="../../src/assets/closeIcon.svg" alt="close-icon" onClick={() => setIsActive(false)}/>
+          <img src="/assets/closeIcon.svg" alt="close-icon" onClick={() => setIsActive(false)}/>
         </div>
 
         <ul>

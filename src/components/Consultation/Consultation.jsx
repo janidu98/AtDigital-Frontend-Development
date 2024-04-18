@@ -7,7 +7,7 @@ const Consultation = () => {
       {/* Web & Mobile App Development */}
       <div className="app_development">
         <div className="app_img">
-          <img src="../../src/assets/img1.png" alt="computer_img" />
+          <img src="/assets/img1.png" alt="computer_img" />
         </div>
 
         <div className="app_development_content">
@@ -37,7 +37,7 @@ const Consultation = () => {
         </div>
 
         <div className="digital_img">
-          <img src="../../src/assets/img2.png" alt="search_img" />
+          <img src="/assets/img2.png" alt="search_img" />
         </div>
       </div>
     </div>

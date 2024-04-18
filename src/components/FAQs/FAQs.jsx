@@ -15,7 +15,7 @@ const FAQs = () => {
         <div className="questionWithAnswer">
           <div className="question">
             <p>Lorem ipsum dolor sit amet consectetur. Leo at sit eu libero?</p>
-            <img src="../../src/assets/remove.svg" alt="removeImg" />
+            <img src="/assets/remove.svg" alt="removeImg" />
           </div>
           <div className="answer">
             <p>
@@ -28,12 +28,12 @@ const FAQs = () => {
 
         <div className="onlyQustion">
           <p>Lorem ipsum dolor sit amet consectetur. Tortor scelerisque integer?</p>
-          <img src="../../src/assets/add.svg" alt="plusImg" />
+          <img src="/assets/add.svg" alt="plusImg" />
         </div>
 
         <div className="onlyQustion">
           <p>Lorem ipsum dolor sit amet consectetur. Faucibus scelerisque nunc?</p>
-          <img src="../../src/assets/add.svg" alt="plusImg" />
+          <img src="/assets/add.svg" alt="plusImg" />
         </div>
       </div>
     </div>

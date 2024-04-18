@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="wrapper footer_container">
         <div className="above_footer">
           <div className="left_side">
-            <img src="../../src/assets/logo.svg" alt="logo" />
+            <img src="/assets/logo.svg" alt="logo" />
             <p>
               Your goal is our target. Not anything in between. We use online
               marketing platforms and tools to achieve single objective - your
